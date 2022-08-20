@@ -1,0 +1,103 @@
+html {
+    background-color: #FFA07A;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+/* NAVBAR ---------------------------------------- */
+.navbar {
+    background-color: #008080;
+    display: block;
+    color: lightsalmon;
+    padding-top: 1rem;
+}
+
+ul {
+    color: lightsalmon;
+    background-color: #008080;
+    display: block;
+    list-style: none;
+    margin: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    color: lightsalmon;
+    background-color: #008080;
+}
+
+@media only screen and (max-width: 640px) {
+    li {
+        display: block;
+        text-align: center;
+    }
+}
+/* TITLE ------------------------------------------ */
+.title {
+    text-align: center;
+    display: block;
+}
+
+.title h1 {
+    background-color: #80513E;
+    color: lightsalmon;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 1rem;
+}
+/* SUMMARY --------------------------------------- */
+.summary h2 {
+    color: yellow;
+}
+
+.summary p {
+    color: white;
+}
+/* PHOTOS ---------------------------------------- */
+.photos {
+    margin: 4rem auto;
+    display: block;
+}
+
+.photos img {
+    width: 30%;
+    margin: 1.5%;
+}
+
+@media only screen and (max-width: 1048px) {
+    .photos img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* TESTIMONIAL ----------------------------------- */
+.testimonial {
+    background-color: #008080;
+    color: yellow;
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
+/* JOIN ----------------------------------- */
+.join {
+    display: block;
+}
+
+.join h1 {
+    color: yellow;
+    text-align: center;
+}
+
+.join img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+/* END OF CODE ---------------------------- */
